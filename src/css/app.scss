@@ -1,0 +1,8 @@
+// app global css in SCSS form
+@import './typography.scss';
+@import './flex.scss';
+@import './icon.scss';
+
+.disabled, [disabled]{
+  opacity: 0.65 !important;
+}
