@@ -71,6 +71,10 @@ const componentsLinks: EssentialLinkProps[] = [
     title: 'Button',
     link: '/docs/button',
   },
+  {
+    title: 'Menu',
+    link: '/docs/menu',
+  },
 ];
 
 const leftDrawerOpen = ref(false);

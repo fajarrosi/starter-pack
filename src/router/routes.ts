@@ -5,6 +5,8 @@ import typographyRoute from './docs/typographyRoute';
 import iconsRoute from './docs/iconsRoute';
 import badgeRoute from './docs/badgeRoute';
 import buttonRoute from './docs/buttonRoute';
+import menuRoute from './docs/menuRoute';
+
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
@@ -21,7 +23,8 @@ const routes: RouteRecordRaw[] = [
       typographyRoute,
       iconsRoute,
       badgeRoute,
-      buttonRoute
+      buttonRoute,
+      menuRoute
     ],
 
   },
